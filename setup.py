@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import find_packages, setup
 
 version = {}
 with open(os.path.join(os.path.dirname(__file__), "nstbrowser", "_version.py")) as fp:
@@ -31,7 +31,7 @@ setup(
         "Documentation": "https://github.com/Nstbrowser/nstbrowser-sdk-python#readme",
         "Source": "hhttps://github.com/Nstbrowser/nstbrowser-sdk-python",
     },
-    packages=["nstbrowser"],
+    packages=find_packages(),
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     classifiers=[
