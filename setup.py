@@ -29,7 +29,7 @@ setup(
     url="https://github.com/Nstbrowser/nstbrowser-sdk-python",
     project_urls={
         "Documentation": "https://github.com/Nstbrowser/nstbrowser-sdk-python#readme",
-        "Source": "hhttps://github.com/Nstbrowser/nstbrowser-sdk-python",
+        "Source": "https://github.com/Nstbrowser/nstbrowser-sdk-python",
     },
     packages=find_packages(),
     long_description=read("README.md"),
