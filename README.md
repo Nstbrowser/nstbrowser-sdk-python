@@ -229,6 +229,6 @@ Complete examples for CDP automation are available in the `examples/cdp_endpoint
 
 ## Support
 
-For support, [contact us](https://www.nstbrowser.io/en/contact-us) or for more detailed documentation, visit the official Nstbrowser documentation: [Nstbrowser API Documentation](https://apidocs.nstbrowser.io).
+For support, feel free to reach out to us via [Discord](https://api.nstbrowser.io/api/v1/links/discord). For more detailed documentation, visit the official Nstbrowser documentation: [Nstbrowser API Documentation](https://apidocs.nstbrowser.io).
 
 
