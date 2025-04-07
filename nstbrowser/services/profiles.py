@@ -47,3 +47,12 @@ class ProfilesService(BaseService):
 
     def get_profiles(self, data: dict | None = None):
         return self._client._get(f"/profiles", data)
+
+    def get_all_profile_groups(self, group_name: str | None = None):
+        return self._client._get("/profiles/groups", {"groupName": group_name})
+
+    def change_profile_group(self, profile_id: str, group_id: str):
+        return self._client._put(f"/profiles/{profile_id}/group", {"groupId": group_id})
+      
+    def batch_change_profile_group(self, data: dict):
+        return self._client._put("/profiles/group/batch", data)

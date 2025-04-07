@@ -186,7 +186,14 @@ The SDK comes with a comprehensive set of examples in the `/examples` directory,
 - `profiles/batch_reset_profile_proxy.py`: Reset proxies for multiple profiles
 - `profiles/create_profile_tags.py`: Create tags for a profile
 - `profiles/get_profile_tags.py`: Get all profile tags
-- And more tag management examples
+- `profiles/update_profile_tags.py`: Update tags for a profile
+- `profiles/batch_update_profile_tags.py`: Update tags for multiple profiles
+- `profiles/clear_profile_tags.py`: Clear all tags from a profile
+- `profiles/batch_clear_profile_tags.py`: Clear tags from multiple profiles
+- `profiles/batch_create_profile_tags.py`: Create tags for multiple profiles
+- `profiles/get_all_profile_groups.py`: Get all profile groups
+- `profiles/change_profile_group.py`: Change a profile group
+- `profiles/batch_change_profile_group.py`: Batch changes to profile groups
 
 ### Local Data Examples
 - `locals/clear_profile_cache.py`: Clear browser cache
